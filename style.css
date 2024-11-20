@@ -1,7 +1,38 @@
-
+.header{
+    background-color: #286bcf;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.container-logo>h1{
+    margin-left: 15px;
+}
+.logo{
+    font-size: 50px;
+    color: rgb(136 177 67);
+}
+nav>a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav>a:hover{
+    color: rgb(136 177 67);
+}
 .centrar{
     text-align: center;
-    padding: 10px 20%;
+    padding: 11px 2%;
+    background-color: #edeaea;
+    width: 80%;
+    margin: 12px auto;
+    border-radius: 5px;
+    border: 2px solid #e1e1e1;
 }
 p{
     text-align: justify;
